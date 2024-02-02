@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .cajas {
+      width: 75px;
+      height: 75px;
+      /* DIFERENCIA ENTRE INLINE E INLINE-BLOCK: El primero provoca la perdida de sus dimensiones */
+      display: inline-block;
+    }
+
+    #caja_roja {
+      background-color: red;
+    }
+
+    #caja_verde {
+      background-color: green;
+    }
+
+    #caja_azul {
+      background-color: blue;
+    }
+
+    a {
+      display: block;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Elementos en bloque -->
+  <div class="cajas" id="caja_roja">caja 1</div>
+  <div class="cajas" id="caja_verde">caja 2</div>
+  <div class="cajas" id="caja_azul">caja 3</div>
+  <!-- Elementos en linea -->
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+</body>
+
+</html>

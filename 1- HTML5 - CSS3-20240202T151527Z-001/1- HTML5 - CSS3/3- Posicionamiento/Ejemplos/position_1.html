@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .contenedor {
+      background-color: cadetblue;
+      height: 2000px;
+    }
+
+    .cajas {
+      width: 100px;
+      height: 100px;
+    }
+
+    #static {
+      background-color: gray;
+      position: static;
+    }
+
+    #relative {
+      background-color: green;
+      position: relative;
+      top: 25px;
+      left: 25px;
+    }
+
+    #absolute {
+      background-color: red;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+
+    #fixed {
+      background-color: blue;
+      position: fixed;
+      top: 35px;
+      left: 135px;
+    }
+
+    #sticky {
+      width: 400px;
+      height: 30px;
+      background-color: yellow;
+      position: sticky;
+      top: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="contenedor">
+    <!-- static: Valor que toma un elemento para posicionarse respetando el flujo normal de la página (por defecto) -->
+    <div id="static" class="cajas"></div>
+    <!-- relative: Posicionamiento de un elemento respetando el flujo normal de la pagina con la opcion de aplicar la coordenadas TOP, BOTTOM, LEFT, RIGHT -->
+    <div id="relative" class="cajas"></div>
+    <!-- absolute: Posición fija sobre la ventana del navegador con la opcion de aplicar la coordenadas TOP, BOTTOM, LEFT, RIGHT -->
+    <div id="absolute" class="cajas"></div>
+    <!-- fixed: Igual que pos. absolute sin respetar el flujo del navegador -->
+    <div id="fixed" class="cajas"></div>
+    <!-- sticky: Pos. fijo pudiendo detectar las coordenadas con el scroll -->
+    <div id="sticky" class="cajas"></div>
+  </div>
+</body>
+
+</html>

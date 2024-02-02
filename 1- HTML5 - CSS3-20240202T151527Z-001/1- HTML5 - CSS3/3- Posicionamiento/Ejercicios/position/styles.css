@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+#sol {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: yellow;
+  /* arriba/abajo 20px y derecha/izq proporcional (centrado) */
+  margin: 20px auto;
+  /* no queda centrado del todo ya que coge el lado izq del sol. Para ello aplicamos esta correccion */
+  /* transform: translateX(-50%); */
+}
+
+.casa {
+  position: absolute;
+  bottom: 65px;
+  width: 500px;
+  height: 600px;
+}
+
+#casa_izq {
+  left: 6%;
+}
+
+#casa_der {
+  right: 6%;
+}
+
+.techo {
+  height: 100px;
+  background-color: black;
+}
+
+.fachada {
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  background-color: burlywood;
+  position: relative;
+}
+
+.ventana {
+  position: absolute;
+  top: 50px;
+  width: 75px;
+  height: 75px;
+  background-color: lightblue;
+}
+
+.ventana_izq {
+  left: 50px;
+}
+
+.ventana_der {
+  right: 50px;
+}
+
+.puerta {
+  position: absolute;
+  width: 75px;
+  height: 150px;
+  background-color: black;
+  bottom: 0;
+  left: 50%;
+}
+
+#suelo {
+  /* la prop position hace que el elemento pierda su ancho (añadir width 100%) */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  background-color: brown;
+}

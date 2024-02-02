@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- 3 maneras de aplicar CSS a HTML
+1- Estilos en linea
+2- Estilos incrustados
+3- Estilos en un archivo css externo -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera pag web</title>
+  <!-- 2- incrustados -->
+  <style>
+    /* tengo que seleccionar los elementos desde aqui: */
+    /* 3 formas: 
+    1- NOMBRE DE ETIQUETA
+    2- ID 
+    3- CLASS */
+    /* ------------- */
+    /* 1-  */
+    article {
+      background-color: aquamarine;
+      color: blue;
+    }
+    /* 2 */
+    #art_borde_negro {
+      border: 3px solid black;
+    }
+    #art_borde_rojo {
+      border: 3px dashed red;
+    }
+    /* 3 */
+    .cabeceras {
+      background-color:beige;
+    }
+  </style>
+
+ <!-- 3- Estilos en un archivo css externo -->
+ <!-- atrib href: ruta del archivo -->
+ <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+  <!-- 1 en linea: atrib "style" -->
+  <header id="cabecera1" class="cabeceras" style="color: coral;">
+    <h1>Soy la cabecera 1</h1>
+    <nav>Soy el menú de navegación</nav>
+  </header>
+  <header id="cabecera2" class="cabeceras">
+    <h1>Soy la cabecera 2</h1>
+  </header>
+  <main>
+    <h1>Soy el contenido principal</h1>
+    <section>
+      <h3>Soy un contenido de sección</h3>
+      <article class="articulos" id="art_borde_negro">Soy un artículo</article>
+      <article class="articulos" id="art_borde_rojo">Soy un artículo</article>
+    </section>
+    <aside>Soy un contenido lateral</aside>
+  </main>
+  <footer>
+    <h1>Soy el pie de página</h1>
+    <!-- span: elementos con contenido en linea -->
+    <span>Texto de contenido en linea</span>
+    <span>Otro texto de contenido en linea</span>
+  </footer>
+</body>
+
+</html>
