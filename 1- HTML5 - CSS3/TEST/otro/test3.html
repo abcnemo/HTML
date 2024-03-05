@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test3.css">
+</head>
+
+<body>
+    <header>
+        <h1>cabecera</h1>
+    </header>
+
+    <div class="cuerpo">
+        <aside class="ladoizquierdo">
+            <form>
+                <h2>Formulario de Contacto</h2>
+                <!-- nombre y apellidos -->
+                <div class="flex">
+                    <!-- nombre -->
+                    <div class="col_30">
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" placeholder="Nombre">
+                    </div>
+                    <!-- apellidos -->
+                    <div class="col_70">
+                        <label for="apell">Apellidos: </label>
+                        <input type="text" id="apell" placeholder="Apellidos">
+                    </div>
+                </div>
+                <!-- email -->
+                <div>
+                    <div class="col_completa">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <!-- telefono, fecha nacimiento y seleccion horarios -->
+                <div class="flex">
+                    <!-- telefono -->
+                    <div class="col_33">
+                        <label for="telefono">Teléfono: </label>
+                        <input type="tel" id="telefono" placeholder="Teléfono">
+                    </div>
+                    <!-- fecha -->
+                    <div class="col_33">
+                        <label for="fecha">Fecha nacimiento: </label>
+                        <input type="date" id="fecha" placeholder="Fecha nacimiento">
+                    </div>
+                    <!-- horario -->
+                    <div class="col_30">
+                        <label for="horario">Horario: </label>
+                        <select id="horario">
+                            <option value="m">Mañana</option>
+                            <option value="t">Tarde</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- mensaje -->
+                <div>
+                    <div class="col_completa">
+                        <label for="mensaje">Mensaje: </label>
+                        <textarea id="mensaje" placeholder="Mensaje" maxlength="100"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <div class="col_completa">
+                        <input type="checkbox">
+                        <span>Acepta nuestra <a href="#">Política de privacidad</a></span>
+                    </div>
+                </div>
+                <button type="button" class="col_completa"><span>Enviar</span></button>
+            </form>
+
+
+        </aside>
+        <div class="centro">
+            <form class="form2">
+                <div class="flex">
+                    <div class="nombre">
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" placeholder="Nombre">
+
+                    </div>
+                    <div class="apellido">
+                        <label for="apell">Apellidos: </label>
+                        <input type="text" id="apell" placeholder="Apellidos">
+                    </div>
+
+
+                </div>
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" placeholder="Email">
+
+
+                </div>
+                <div class="flex3">
+                    <div class="telefono">
+                        <label for="telefono">Teléfono: </label>
+                        <input type="tel" id="telefono" placeholder="Teléfono">
+                    </div>
+                    <!-- fecha -->
+                    <div class="fecha">
+                        <label for="fecha">Fecha nacimiento: </label>
+                        <input type="date" id="fecha" placeholder="Fecha nacimiento">
+                    </div>
+                    <!-- horario -->
+                    <div class="horario">
+                        <label for="horario">Horario: </label>
+                        <select id="horario">
+                            <option value="m">Mañana</option>
+                            <option value="t">Tarde</option>
+                        </select>
+                    </div>
+
+
+                </div>
+                <div class="mensaje">
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea id="mensaje" placeholder="Mensaje" maxlength="100"></textarea>
+
+
+                </div>
+                <div class="politica">
+                    <input type="checkbox">
+                    <span>Acepta nuestra <a href="#">Política de privacidad</a></span>
+
+
+                </div>
+                <div class="enviar">
+                    <button type="button" class="col_completa"><span>Enviar</span></button>
+
+
+                </div>
+            </form>
+        </div>
+        <aside class="ladoderecho">
+            <h1>derecho</h1>
+    
+        </aside>
+
+
+    </div>
+    <footer>
+        <h1>pie</h1>
+    </footer>
+
+</body>
+
+</html>

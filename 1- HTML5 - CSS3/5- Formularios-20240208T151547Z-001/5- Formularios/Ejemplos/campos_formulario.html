@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .custom-file-input::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+
+    .custom-file-input::before {
+      content: 'Selecciona un archivo';
+      display: inline-block;
+      background: linear-gradient(top, #f9f9f9, #e3e3e3);
+      border: 1px solid #999;
+      border-radius: 3px;
+      padding: 5px 8px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      text-shadow: 1px 1px #fff;
+      font-weight: 700;
+      font-size: 10pt;
+    }
+
+    .custom-file-input:hover::before {
+      border-color: black;
+    }
+
+    .custom-file-input:active::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+    }
+
+    textarea {
+      width: 300px;
+      height: 100px;
+      resize: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- label: Su atributo "for" es para asociarlo a su campo mediante su atributo "id" -->
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre">
+  <!-- Los elementos de un form se posicionan por defecto en "linea"  -->
+  <input type="text">
+  <h3>Botones</h3>
+  <input type="button" value="Click!">
+  <button type="button">Click!</button>
+  <p>Envio de formularios (submit)</p>
+  <form>
+    <input type="submit" value="Click! SUBMIT">
+    <button>Click! SUBMIT2</button>
+  </form>
+  
+  <input type="number" min="0" max="10">
+  <hr>
+  <!-- El atributo "value" de un input type "text", es el contenido de es campo -->
+  <input type="text" value="Hola!!!!">
+  <!-- Si queremos añadir un texto de referencia al usuario, utilizamos el atributo "placeholder" -->
+  <input type="text" placeholder="Añade tu nombre">
+  <hr>
+  <h4>Login</h4>
+  <label for="email">Email</label>
+  <input type="email" id="email">
+  <label for="pass">Contraseña</label>
+  <input type="password" id="pass">
+  <input type="button" value="Entrar">
+  <hr>
+  <input type="date">
+  <input type="datetime-local">
+  <hr>
+  <input type="color">
+  <hr>
+  <h4>Desplegables (seleccionamos una opcion)</h4>
+  <select>
+    <option>Opcion 1</option>
+    <option>Opcion 2</option>
+    <option>Opcion 3</option>
+    <option>Opcion 4</option>
+  </select>
+  <hr>
+  <h4>Checkbox (seleccionamos varias opciones)</h4>
+  <label for="opcion1">Opcion 1</label>
+  <input type="checkbox" id="opcion1">
+  <label for="opcion2">Acepta nuestra politica de privacidad</label>
+  <input type="checkbox" id="opcion2">
+  <hr>
+  <h4>Checkbox (seleccionamos una opcion)</h4>
+  <label for="opcion1">Opcion 1</label>
+  <input type="radio" id="opcion1" name="opciones">
+  <label for="opcion1">Opcion 2</label>
+  <input type="radio" id="opcion2" name="opciones">
+  <hr>
+  <input type="file">
+  <!-- con estilos -->
+  <input class="custom-file-input" type="file">
+  <hr>
+  <h4>Campo de texto grande (mensaje)</h4>
+  <textarea></textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

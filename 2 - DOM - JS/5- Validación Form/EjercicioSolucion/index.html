@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./validacionForm.js" defer></script>
+</head>
+<body>
+  <form>
+    <h3>Formulario de Registro</h3>
+    <!-- username -->
+    <label>Nombre de Usuario <span class="requerido">*</span> (min 2 caract)</label>
+    <input type="text" id="username">
+    <span class="spanError"></span>
+    <!-- email -->
+    <label>Email <span class="requerido">*</span></label>
+    <input type="email" id="email">
+    <span class="spanError"></span>
+    <!-- contraseña -->
+    <label>Contraseña <span class="requerido">*</span> (min 6 caract, 1 num, 1 letra minus, 1 mayus y un caract especial)</label>
+    <input type="password" id="pass1">
+    <span class="spanError"></span>
+    <!-- validar contraseña -->
+    <label>Confirmar contraseña <span class="requerido">*</span></label>
+    <input type="password" id="pass2">
+    <span class="spanError"></span>
+    <button type="button">Registrarse!</button>
+    <p>Ya tienes cuenta? <span class="formToggle">Inicia Sesión</span></p>
+  </form>
+
+  <form class="hide">
+    <h3>Formulario de Login</h3>
+    <!-- email -->
+    <label>Email <span class="requerido">*</span></label>
+    <input type="email" id="email_">
+    <span class="spanError"></span>
+    <!-- contraseña -->
+    <label>Contraseña <span class="requerido">*</span>  </label>
+    <input type="password" id="pass_">
+    <span class="spanError"></span>
+    <button type="button">Entrar!</button>
+    <p>No tienes cuenta? <span class="formToggle">Regístrate</span></p>
+  </form>
+</body>
+</html>

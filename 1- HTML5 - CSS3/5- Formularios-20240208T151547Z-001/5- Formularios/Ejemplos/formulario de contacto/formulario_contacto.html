@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/formulario_contacto.css">
+  <link rel="stylesheet" href="./css/efecto_boton.css">
+</head>
+
+<body>
+  <form>
+    <h2>Formulario de Contacto</h2>
+    <!-- nombre y apellidos -->
+    <div class="flex">
+      <!-- nombre -->
+      <div class="col_30 input_margin">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" placeholder="Nombre">
+      </div>
+      <!-- apellidos -->
+      <div class="col_70 input_margin">
+        <label for="apell">Apellidos: </label>
+        <input type="text" id="apell" placeholder="Apellidos">
+      </div>
+    </div>
+    <!-- email -->
+    <div>
+      <div class="input_margin">
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Email">
+      </div>
+    </div>
+    <!-- telefono, fecha nacimiento y seleccion horarios -->
+    <div class="flex">
+      <!-- telefono -->
+      <div class="col_33 input_margin">
+        <label for="telefono">Teléfono: </label>
+        <input type="tel" id="telefono" placeholder="Teléfono">
+      </div>
+      <!-- fecha -->
+      <div class="col_33 input_margin">
+        <label for="fecha">Fecha nacimiento: </label>
+        <input type="date" id="fecha" placeholder="Fecha nacimiento">
+      </div>
+      <!-- horario -->
+      <div class="col_33 input_margin">
+        <label for="horario">Horario: </label>
+        <select id="horario">
+          <option value="m">Mañana</option>
+          <option value="t">Tarde</option>
+        </select>
+      </div>
+    </div>
+    <!-- mensaje -->
+    <div>
+      <div class="input_margin">
+        <label for="mensaje">Mensaje: </label>
+        <textarea id="mensaje" placeholder="Mensaje" maxlength="100"></textarea>
+      </div>
+    </div>
+    <div>
+      <div class="input_margin">
+        <input type="checkbox">
+        <span>Acepta nuestra <a href="#">Política de privacidad</a></span>
+      </div>
+    </div>
+    <button type="button" class="input_margin"><span>Enviar</span></button>
+  </form>
+</body>
+
+</html>

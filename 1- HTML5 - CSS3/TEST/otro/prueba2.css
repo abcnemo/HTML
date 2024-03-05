@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* footer abajo */
+body,
+html {
+    height: 100%;
+}
+header {
+    border: 10px solid green;
+    height: 20%;
+}
+
+main {
+    display: flex;
+    border: 10px solid red;
+    height: 80%;
+}
+
+footer {
+    display: flex;
+    border: 10px solid blue;
+    height: 20%;
+}
+.centro {
+    display: flex;
+    width: 50%;
+    border: 5px solid green;
+}
+.izquierda{
+    display: flex;
+    width: 25%;
+    border: 5px solid green;
+}
+.derecha{
+    display: flex;
+    width: 25%;
+    border: 5px solid green;
+}
+form {
+    border: 10px solid geen;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.row {
+
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+.long1{
+    width: 33%;
+    margin: 5px;
+  }
+  .long2{
+    
+    width: 100%;
+    margin: 5px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 6px 12px;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: .875em;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  button img {
+    width: 50px;
+  }
+  span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+  }
+    .izquierda {
+        display: flex;
+        flex-direction: column;
+
+    }
+  
+  .izqsup{
+    height: 20%;
+    width: 100%;
+    
+
+  }
+ .izqcen{
+    height: 20%;
+    width: 100%;
+    
+    
+
+  }
+  .izqinf{
+    display: flex;
+    
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    border: 5x solid blue;
+    border-radius: 5px;
+    
+
+  }
+  span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+  }
+  .foto{
+    box-shadow: 0 20px 20px -8px rgba(0, 0, 0,.7);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  h1{
+    font-size: medium;
+    text-align: center;
+    box-shadow: 0 20px 20px -8px rgba(0, 0, 0,.7);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+  }
+  p{
+    text-align: justify;
+    font-size: x-small;
+    box-shadow: 0 20px 20px -8px rgba(0, 0, 0,.7);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  .siguiente{
+    margin-left: 70px;
+    width: 50%;
+    
+  }

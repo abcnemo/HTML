@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #999;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  width: 300px;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#cerrar {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+}
+
+#content {
+  width: 70%;
+  margin: auto;
+  padding: 10px 20px 50px 20px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+#logo {
+  width: 30px;
+  display: block;
+  margin: auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+  border: none;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 8px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+button img {
+  width: 15px;
+}
+
+#btn_google {
+  color: #444;
+  font-weight: 600;
+}
+
+#btn_apple {
+  font-weight: bold;
+  padding: 3px;
+}
+
+#btn_siguiente {
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border: 0;
+  font-weight: bold;
+}
+
+#btn_password {
+  padding: 7px;
+  font-weight: bold;
+}
+
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 5px;
+  border: 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+}
+
+input::placeholder {
+  font-size: 11px;
+}
+
+p {
+  font-size: 10px;
+  color: #444;
+}
+
+a {
+  color: rgb(54, 54, 253);
+  text-decoration: none;
+  margin-bottom: 50px;
+}

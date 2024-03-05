@@ -1,0 +1,148 @@
+/* tipografias */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* footer abajo */
+body, html {
+  height: 100%;
+}
+
+body {
+  /* footer abajo */
+  display: flex;
+  flex-direction: column;
+  /* fin footer abajo */
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+#contenedor_ppal {
+  display: flex;
+  flex-grow: 1;
+}
+
+aside {
+  width: 25%;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#contenedor_der {
+  width: 75%;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(15, 15, 15);
+  color: grey;
+}
+
+.fa-angle-left, .fa-angle-right {
+  font-size: 30px;
+}
+
+.fa-angle-left {
+  margin-right: 20px;
+}
+
+main {
+  margin-top: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 90%;
+  /*background-color: rgb(46, 46, 46);*/
+  background-image: linear-gradient(180deg, rgb(30, 30, 30) 0%, rgb(20, 20, 20) 100%);
+  padding: 10px 20px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 13%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(30, 30, 30);
+}
+
+.img_list {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  background-image: url("img/img_list.PNG");
+  background-size: cover;
+}
+
+article h4 {
+  margin: 10px 0;
+}
+
+article p {
+  line-height: 20px;
+  font-size: 12px;
+  color:grey;
+}
+
+ 
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  height: 70px;
+  /*background-color: #4158D0;*/
+  background-image: linear-gradient(90deg, #c8509a 0%, #4158D0 100%);
+}
+
+
+/* elementos */
+.btn {
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+header a {
+ 
+  margin-right: 10px;
+  color: grey;
+  text-decoration: none;
+}
+
+footer a {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: rgb(208, 208, 208);
+}
+
+.btn:hover {
+  color: black;
+  font-size: 110%;
+}
+

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% viewport height */
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: aquamarine;
+}
+
+form {
+  width: 700px;
+  padding: 2%;
+  color: #fff;
+  background-color: rgb(183, 41, 86);
+  box-shadow: 5px 5px 10px rgb(82, 82, 82);
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 0 2px 1px rgb(82, 82, 82);
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 7px;
+  border: 0;
+  outline: 0;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+input[type=checkbox] {
+  width: initial;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+/* campos */
+.input_margin {
+  margin: 10px;
+}
+
+.col_30 {
+  width: 30%;
+}
+
+.col_33 {
+  width: 33.33%;
+}
+
+.col_70 {
+  width: 70%;
+}
+
+/* .btn {
+  padding: 10px 20px;
+  border: 0;
+  background-color: #fff;
+  color: rgb(183, 41, 86);
+  font-weight: bold;
+  font-family: 'IBM Plex Mono', monospace;
+  cursor: pointer;
+} */

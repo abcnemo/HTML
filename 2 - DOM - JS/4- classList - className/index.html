@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./index.js" defer></script>
+  <style>
+    body {
+      padding: 20px;
+    }
+    .cajas_rojas {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .cajas_verdes {
+      width: 50px;
+      height: 50px;
+      background-color: green;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .azul, .azul_abajo{
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .amarillo {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(203, 203, 90);
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .hide {
+      display: none;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- CLASSNAME -->
+  <div class="cajas_rojas"></div>
+  <div class="cajas_rojas"></div>
+  <div class="cajas_rojas"></div>
+  <div class="cajas_rojas"></div>
+  <button onclick="cambiar()">CAMBIAR</button>
+  <hr>
+  <!-- CLASSLIST -->
+  <div class="azul"></div>
+  <button onclick="cambiar_()">CAMBIAR</button>
+  <hr>
+  <div class="azul_abajo"></div>
+  <button onclick="cambiar__()">CAMBIAR</button>
+</body>
+</html>

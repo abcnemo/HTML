@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* footer abajo */
+body,
+html {
+    height: 100%;
+    
+}
+header{
+border: 10px solid red;
+width: 90%;
+height: 10%;
+margin-left: 85px;
+}
+footer{
+    
+    width: 90%;
+    height: 5%;
+    margin-left: 85px;
+    background-color: blueviolet;
+}
+.izquierda{
+    border: 5px solid black;
+    width: 75%;
+    height: 100%;
+    background-color: chocolate;
+
+}
+.derecha{
+    
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    border: 5px solid black;
+
+}
+main{
+    display: flex;
+    height: 85%;
+    width: 90%;
+    margin-left: 85px;
+}
+body{
+    background-color: black;
+    
+}
+.superior{
+    height: 60%;
+    
+    background-color: white;
+
+}
+.inferior{
+    
+    height: 40%;
+    background-color: yellow;
+    
+
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+h1{
+    font-size: medium;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    
+    
+    
+}
+.imagen1{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    
+}
+.botones{
+    width: 10%;
+    padding: 7px;    
+    margin-left: 40%;
+}
+.icono{
+    height: 150px;
+    width: 150px;
+}
+    
+    .icono1{
+        
+        height: 100%;
+        width: 16.66%;  
+        border: 10px solid black;
+        
+    
+}
+.izqsup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-top: 125px;
+}
+.izqinf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-top: 125px;
+    
+}
+span{
+    color: white;
+    background-color: black;
+    
+}
+.btn {
+    
+    background-color: black;
+    
+    font-size: 15px;
+  }

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.cuerpo {
+    border: 10px solid black;
+}
+
+header {
+    height: 50px;
+    border: 10px solid red;
+}
+
+#sec1 {
+    height: 300px;
+    border: 10px solid blue;
+}
+#sec2 {
+    height: 300px;
+    border: 10px solid green;
+}
+
+#sec3 {
+    height: 300px;
+    border: 10px solid aqua;
+}
+
+aside {
+    width: 25%;
+    height: 300px;
+    border: 10px solid magenta
+}
+
+.flex {
+    display: flex;
+}
+
+#sections {
+    width: 50%;
+}
+
+footer {
+    height: 50px;
+    border: 10px solid yellow;
+}

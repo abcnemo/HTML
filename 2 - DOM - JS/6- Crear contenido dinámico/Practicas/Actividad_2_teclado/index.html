@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teclado</title>
+  <script src="./teclado.js" defer></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+    #teclado {
+      width: 300px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: brown;
+    }
+    #teclas {
+      text-align: center;
+    }
+    textarea {
+      width: 100%;
+      resize: none;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div id="teclado">
+    <textarea maxlength="300"></textarea>
+    <div id="teclas">
+    </div>
+  </div>
+</body>
+</html>

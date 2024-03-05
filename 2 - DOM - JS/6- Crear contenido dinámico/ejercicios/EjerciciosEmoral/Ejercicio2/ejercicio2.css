@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  text-align: center;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: aquamarine;
+}
+
+label {
+  display: block;
+  margin: 10px 0 -8px 0;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  display: block;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 3px;
+  border: 0;
+  color: #fff;
+  background-color: rgb(255, 69, 69);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(192, 38, 38);
+}
+
+.formToggle {
+  color: rgb(0, 0, 147);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.requerido {
+  color: red;
+}
+
+.inputError {
+  border: 2px solid rgb(247, 49, 49);
+  background-color: red;
+}
+
+.spanError {
+  color: rgb(247, 49, 49);
+  font-size: small;
+}
+
+#izq {
+  width: 40%;
+  border-right: 2px solid aquamarine;
+}
+
+#der {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 30%;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+body {
+  display: flex;
+}

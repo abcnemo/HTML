@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./ejercicios.js" defer></script>
+  <style>
+    .rojo {
+      background-color: red;
+    }
+    .verde {
+      background-color: green;
+    }
+    .oculto {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h4>Ejercicio 1 -> Crear un input tipo texto y un botón. Al apretar en el botón mostrar la información del input en un div y en un alert.</h4>
+  <input type="text" id="ejercicio1INPUT">
+  <button id="ejercicio1BTN">Ejercicio1</button>
+  <div id="ejercicio1DIV">
+    
+  </div>
+  <hr>
+  <h4>Ejercicio 2 -> Validar un campo texto. Si está vacío, poner color rojo en el input, en caso contrario verde.</h4>
+  <input type="text" id="ejercicio2INPUT">
+  <hr>
+  <h4>Ejercicio 3 -> Validar un campo numérico. Si es menor de 18, mostrar un texto que confirme que es menor, en caso contrario, que es mayor.</h4>
+  <input type="number" id="ejercicio3INPUT" min="0">
+  <div id="ejercicio3DIV"></div>
+  <hr>
+  <h4>Ejercicio 4 -> Mostrar una parte del texto y un enlace (etiqueta a) que diga “Leer más”. Cuando se presione en él, mostrar todo el texto y ocultar “Leer más”.</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit, aperiam architecto similique magni corrupti eaque numquam neque libero recusandae deleniti aut iste doloremque consequuntur at dolore ipsum, veniam iusto quas nisi quasi rem porro sed maxime. Ullam quaerat vel quas ab sit assumenda necessitatibus voluptas omnis ducimus temporibus ipsum, soluta, tempore quidem, cum dolores minima magnam?<span class="oculto">Illum vitae sapiente officia mollitia dolor unde at necessitatibus architecto repellendus dolore voluptate magni, itaque autem et natus vel corrupti. Aliquam dolores expedita culpa perspiciatis, veritatis nobis iusto aliquid minus, deserunt cumque laudantium incidunt modi, earum ad architecto officia obcaecati possimus assumenda doloremque?</span><a href="#">Leer más</a></p>
+  <hr>
+  <h4>Ejercicio 5 -> Input para pedir cantidad de números de teléfono a introducir. Crear tantos inputs como teléfonos como ha requerido el usuario y mediante un botón imprimirlos.</h4>
+  <input type="number" id="ejercicio5INPUT" min="0">
+  <button id="ejercicio5BTN">Crear</button>
+  <div id="ejercicio5DIV"></div>
+  <hr>
+  <h4>Ejercicio 6 -> Crear un pequeño formulario con nombre, teléfono y dirección. Al rellenar el formulario y mediante un botón, introducir los datos en una lista.</h4>
+  <form>
+    <input type="text" placeholder="nombre" id="ejercicio6-1INPUT">
+    <input type="tel" placeholder="telefono" id="ejercicio6-2INPUT">
+    <input type="text" placeholder="direccion" id="ejercicio6-3INPUT">
+    <button type="button" id="ejercicio6BTN">Imprimir</button>
+  </form>
+  <div id="ejercicio6DIV"></div>
+  <hr>
+</body>
+</html>
+
+
+

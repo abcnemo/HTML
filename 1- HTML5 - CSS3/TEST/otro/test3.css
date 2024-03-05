@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 80%;
+    height: 50%;
+    padding: 1%;
+    color: #fff;
+    background-color: rgb(183, 41, 86);
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    border: 5px solid blue;
+}
+.form2 {
+    width: 70%;
+    height: 50%;
+    padding: 5%;
+    color: #fff;
+    background-color: rgb(183, 41, 86);
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    border: 5px solid blue;
+}
+
+header {
+    border: 10px solid green;
+
+}
+
+footer {
+    border: 10px solid green;
+
+}
+
+.cuerpo {
+
+    display: flex;
+    border: 10px solid blue;
+
+}
+
+.ladoizquierdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% viewport height */
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: aquamarine;
+    width: 30%;
+    border: 10px solid red;
+}
+
+.ladoderecho {
+    width: 10%;
+    height: auto;
+    border: 1px solid red;
+
+}
+
+.centro {
+    width: 60%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.col_30 {
+    width: 30%;
+    margin: 5px;
+    border: 5px solid blue;
+}
+
+.col_33 {
+    width: 33.33%;
+    margin: 5px;
+    border: 5px solid blue;
+}
+
+.col_70 {
+    width: 70%;
+    margin: 5px;
+    border: 5px solid blue;
+}
+
+.col_completa {
+    margin: 5px;
+    border: 5px solid blue;
+    
+}
+.flex {
+    display: flex;
+    
+}
+.flex3 {
+    display: flex;
+    
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.nombre {
+    
+    width: 33.33%;
+    margin: 5px;
+    border: 5px solid blue;
+}
+.apellido {
+    
+    width: 40%;
+    margin: 5px;
+    border: 5px solid blue;
+}
+.email{
+    width: 32%;
+    margin: 5px;
+    border: 5px solid blue;
+
+}
+.mensaje{
+    width: 40%;
+    height:20%;
+    margin:5px;
+    border: 5px solid blue;
+}
+.flex4{
+    display: flex;
+}
+
+
+.telefono{
+    width:31%;
+    border: 5px solid blue;
+    margin: 5px;
+}
+.fecha{
+    width:22%;
+    border: 5px solid blue;
+    margin:5px;
+}
+.horario{
+    width:40%;
+    border: 5px solid blue;
+    margin:5px;
+
+}
+.politica{
+    width: 70%;
+    margin: 5px;
+    border: 5px solid blue;
+}
+.enviar{
+    width: 70%;
+    margin: 5px;
+    border: 5px solid blue;
+}
+
+

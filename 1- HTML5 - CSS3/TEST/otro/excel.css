@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cuerpo {
+    display: flex;
+
+}
+
+.izquierdo {
+
+    height: 800px;
+    width: 25%;
+
+}
+
+.derecho {
+
+    width: 75%;
+
+}
+
+footer {
+    background-color: bisque;
+    border-radius: 15%;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 5px solid grey;
+}
+
+.veinte {
+    display: flex;
+    flex-direction: column;
+background-color: antiquewhite;
+    height: 20%;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.cuarenta {
+    background-color: antiquewhite;
+    height: 42%;
+    border-radius: 10px;
+    border: 5px solid grey;
+
+}
+
+.superior {
+    display: flex;
+    width: 100%;
+    height: 34%;
+    background-color: white;
+    margin: 5px;
+
+
+
+}
+
+.medio {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 34%;
+    margin: 5px;
+
+
+}
+
+.inferior {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 27%;
+    border-radius: 25px;
+    margin-top: 5px;
+    border: 5px solid grey;
+}
+
+header {
+    width: 100%;
+    height: 5%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: 5px solid grey;
+
+}
+
+.foto {
+    width: 25%;
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
+
+img {
+    margin-left: 25px;
+    height: 30%;
+    width: 85%;
+}
+
+p {
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    text-indent: 2%;
+    margin: 5px;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    
+    width: 25%;
+    border: 5px solid grey;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+}
+
+.linkss {
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+    border: 5px solid grey;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+
+a {
+    font-size: x-large;
+}
+
+h4 {
+    font-size: xx-large;
+}
+
+.icono1 {
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin: 1px;
+    border: 5px solid grey;
+}
+
+.fa-spotify {
+    font-size: 20px;
+}
+
+.imagen {
+    margin-left: 15px;
+    border-radius: 50px;
+    height: 40px;
+    width: 10%;
+
+}
+
+button img {
+    width: 50px;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 8px;
+}
